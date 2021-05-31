@@ -57,3 +57,6 @@ table
 | 1    | 2    | 3    |
 |      |      |      |
 |      |      |      |
+
+
+![1](http://latex.codecogs.com/svg.latex?\int_a^bf(x)\ dx)
