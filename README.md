@@ -3,7 +3,6 @@
 The repo is mainly used to store markdown assets.
 
 
-# Typora and Markdown
 
 [toc]
 
@@ -23,200 +22,121 @@ line break: <kbd>Shift</kbd> + <kbd>Return</kbd>
 
 
 
-header: <kbd>Cmd</kbd> + <kbd>1</kbd> ~ <kbd>6</kbd>; `# header`, etc.
+header: <kbd>Cmd</kbd> + <kbd>1</kbd> ~ <kbd>6</kbd>
 
 
 
-==highlight==: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd>; `==text==`
+==highlight==
 
-**bold**: <kbd>Cmd</kbd> + <kbd>B</kbd>; `**text**`
+**bold**
 
-*italic*: <kbd>Cmd</kbd> + <kbd>I</kbd>; `*text*`
+*italic*
 
-<u>underline</u>: <kbd>Cmd</kbd> + <kbd>U</kbd>; `<u>text</u>`
+<u>underline</u>
 
-~~deleteline~~: `~~text~~`
+~~deleteline~~
 
-~subscript~: `~subscript~`
+~subscript~
 
-^superscript^: `^superscript^`
-
-
-
-<q>quote inline</q>: `<q>quote</q> `
-
-> quote block: `> quote`
+^superscript^
 
 
 
-<url>: `<url>`
+<q>quote inline</q>
 
-[link](): `[text](url)`, `[text](url "title")`
+> quote block
 
 
 
-code inline: 
+<https://github.com/>
 
-```
-`code`
-```
+[github](https://github.com/ "gh")
 
-code block: 
 
-```
-​```type
-code
-​```
+
+`code inline` 
+
+
+```javascript
+fun chat(){
+  # undo
+}
 ```
 
 
+$equation inline$
 
-equation inline: `$equation$`
 
-equation block: 
 
-```
 $$
-equation
+equation block
 $$
-```
 
 
 
-image: `![text](path)`, `![text](path "title")`
+![m2m](https://raw.githubusercontent.com/zhhsh/md/main/assets/p2429592521.jpg "tt")
 
 
 
-unordered list: 
-
-```
+unordered list
 - item
 - item
-```
 
-ordered list: 
-
-```
+ordered list
 1. item
 2. item
-```
 
-task list: 
-
-```
+task list
 - [ ] item
 - [x] item
-```
+
+
+table
+| a    | b    | c    |
+| ---- | ---- | ---- |
+| 1    | 2    | 3    |
+|      |      |      |
+|      |      |      |
+
+
+horizontal rule: 
+---
 
 
 
-table: <kbd>Cmd</kbd> + <kbd>Opt</kbd> + <kbd>T</kbd>
+
+<ruby>text<rt>topscript</rt></ruby>
+
+:smile:
+
+<kbd>key</kbd>
+
+<button>button</button>
+
+&amp;
+
+<!-- comment -->
 
 
 
-horizontal rule: `---`
+[text](#md)
 
 
 
-table of contents: `[toc]`
 
-
-
-## extension
-
-topscript: `<ruby>text<rt>topscript</rt></ruby>`
-
-emoji: `:smile:`, etc.
-
-keyboard: `<kbd>key</kbd>`
-
-button: `<button>button</button>`
-
-html entity: `&amp;`, etc.
-
-comment: `<!-- comment -->`
-
-
-
-internal link: `[text](#header)`
-
-reference link: 
-
-```
-[text][ref_id]
-[ref_id]: url "optional_title"
-```
-
-```
-[text_id][]
-[text_id]: url "optional_title"
-```
 
 rich link: implemented by html.
 
 
 
-footnote: 
 
-```
-text[^fn_id]
-[^fn_id]: ref_text
-```
-
-
-
-toggle block: 
-
-```
 <details>
 <summary>display_text</summary>
 toggle_text
 </details>
-```
 
 
 
-audio: `<audio src="path" />`
-
-video: `<video src="path" />`
-
-local file: `[text](path)`
-
-file embed: use embed file viewer on the web.
-
-
-
-embed: `<iframe src="url"></iframe>`. Just copy embed code from the share source. 
-
-
-
-digram: take a look at references.
-
-## embed examples
-
-embed a video on youtube
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/w3Wluvzoggg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-embed a video on bilibili
-
-<iframe src="//player.bilibili.com/player.html?aid=587394232&bvid=BV1iB4y1P7py&cid=321152931&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-embed a playlist on spotify
-
-<iframe src="https://open.spotify.com/embed?uri=spotify%3Aplaylist%3A6SmdaueTjuTdCz9o3BavcE" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-embed a playlist on apple music
-
-<iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/playlist/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE-%E9%AC%BC%E6%9D%9F%E3%81%A1%E3%81%B2%E3%82%8D/pl.57be0534d7ec4bb399777116d83f6708"></iframe>
-
-embed a location on google map
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d51848.84403171196!2d138.55376947910156!3d35.6880131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-CN!2sjp!4v1619862679707!5m2!1szh-CN!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-
-
-## Reference
 
 [Table Editing](https://support.typora.io/Table-Editing/)
 
